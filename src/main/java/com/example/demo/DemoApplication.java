@@ -26,7 +26,7 @@ Logger logger = LoggerFactory.getLogger(DemoApplication.class);
 		}
 		catch(Exception ex)
 		{
-			logger.error("An exception occurred!", ex);
+			logger.error("An Exception occurred!!!", ex);
 		 //ex.printStackTrace(); //this will get "Some required files are missing"
 		}
 		return "hello error";
